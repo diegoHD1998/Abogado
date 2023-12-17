@@ -1,17 +1,25 @@
 import { Routes, Route } from "react-router-dom";
-import { Main } from "./Components/main";
-import { Layout1 } from "./Components/layout1";
-import { Layout2 } from "./Components/layout2";
+import FormDatosClientes from "./Components/Formularios/FormDatosClientes";
+import MainPage from "./MainPage";
+import Header from "./Pages/Header";
+import Footer from "./Pages/Footer";
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Routes>
-        <Route path="/" Component={Main}/>
-        <Route path="/view1" Component={Layout1}/>
-        <Route path="/view2" Component={Layout2}/>
-        
+        {/* <Route path="/" Component={MainPage}/> */}
+        <Route path="/" Component={MainPage}/>
+        {/* <Route path="/" Component={FormDatosClientes}/> */}
       </Routes>
+      <Footer/>
     </div>
   );
 }
