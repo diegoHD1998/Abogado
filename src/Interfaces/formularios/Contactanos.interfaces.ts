@@ -1,4 +1,4 @@
-export interface Contactanos {
+export interface IContactanos {
     rut: string,
     nombre: string,
     apellido: string,

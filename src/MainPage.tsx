@@ -1,9 +1,12 @@
+import Contactanos from "./Pages/Contactanos"
 
 const MainPage = () => {
     return(
         <>
-            <div className="grid h-30rem">{/* borrar h-30rem y background, lo actual es de muestra */}
-                <h1>MainPage</h1>
+            <div className="grid ">{/* borrar h-30rem y background, lo actual es de muestra */}
+                <div className="col-12">
+                    <Contactanos/>
+                </div>
             </div>
         </>
     )

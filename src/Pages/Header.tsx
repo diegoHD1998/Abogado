@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
       <>
-        <div className="grid h-8rem bg-blue-800 text-teal-50"> {/* Contenedor Principal */}
+        <div className="grid bg-blue-800 text-teal-50"> {/* Contenedor Principal */}
             <div className="flex flex-wrap justify-content-center align-content-center col-3 ">
                 <h2>
                     Abogado S.A.
